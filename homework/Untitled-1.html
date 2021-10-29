@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @media screen and (min-width:640px) and  (max-width:650px) {
+    } 
+     .demo {
+        width:500px;
+        height:500px;
+       display: grid ;
+       grid-template-columns: 190px 190px 190px 190px;
+       grid-template-rows: 300px;
+       justify-items: center;
+       align-items: center;
+       flex-wrap: wrap-reverse;
+      grid-auto-flow: row;
+    }
+
+    .one{
+        width:120px;
+        height:150px;
+        border: solid orange;
+        line-height: 150px;
+        order: 1;
+       
+    }
+    .two{
+        width:150px;
+        height:100px;
+        border: solid orange;
+        order:2;
+       
+    }
+    .three{
+        width:150px;
+        height:40px;
+        border: solid orange;
+        order:3;
+       
+    }
+    .four{
+        width:150px;
+        height:200px;
+        border: solid orange;
+        order:4;
+       
+    }
+</style>
+<body>
+    
+    <div class="demo">
+        <div class="one">1</div>
+        <div class="two">2</div>
+        <div class="three">3</div>
+        <div class="four">4</div>
+    </div>
+</body>
+</html>
