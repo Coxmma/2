@@ -22,4 +22,3 @@ const person = {
   console.log(mountain) 
   console.log(title1) 
   console.log(title2) 
-  console.log(title3) // God 结合课件
